@@ -15,7 +15,7 @@ class Main{
 	public static void main(String[] args){
 		int y=10;
 		System.out.println(y);
-		Main obj=new Main();// after creating obj of class we can use non static variable.
+		Main1 obj=new Main1();// after creating obj of class we can use non static variable.
 		System.out.println(obj.x);
 }
 }
